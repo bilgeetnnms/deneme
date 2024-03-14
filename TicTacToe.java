@@ -106,7 +106,7 @@ public class TicTacToe {
   public static int checkRows(char[][] board) {
     int count = 0;
     for (int i = 0; i < board.length; i++){
-      for ( int j = 0; j < board[i].length; i++){
+      for ( int j = 0; j < board[i].length; j++){
         if (board[i][j] == 'X'){
            count++;
         }else if (board[i][j] == 'O'){
